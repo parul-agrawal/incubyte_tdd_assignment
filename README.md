@@ -39,3 +39,10 @@ Output: an integer, sum of the numbers
 calculator.add("") // returns 0
  
  ```
+ ### Step 2: Handle Single Number
+
+ handle a single number input. When the input is a single number, the `add` method should return that number.
+
+```js
+calculator.add("1") // returns 1
+```
