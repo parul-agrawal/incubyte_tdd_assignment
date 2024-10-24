@@ -30,3 +30,12 @@ Output: an integer, sum of the numbers
 1. Clone Repository
 2. Install Dependencies (npm install)
 3. Run tests (npm test)
+
+### Step 1: Handle Empty String
+
+ Handle an empty string input. When the input is an empty string (`""`), the `add` method should return `0`.
+
+```js
+calculator.add("") // returns 0
+ 
+ ```
