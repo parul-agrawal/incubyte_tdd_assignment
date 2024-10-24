@@ -61,3 +61,10 @@ Handle any number of numbers separated by commas. The `add` method should return
 ```js
 calculator.add("1,2,3,4") // returns 10
 ```
+### Step 5: Handle New Lines Between Numbers
+
+Allow new lines (`\n`) as delimiters in addition to commas. The `add` method should return the sum of all numbers.
+
+```js
+calculator.add("1\n2,3") // returns 6
+```
