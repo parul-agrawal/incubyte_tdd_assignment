@@ -75,3 +75,10 @@ Should support custom delimiters. If the input starts with `//[delimiter]\n`, th
 ```js
 calculator.add("//;\n1;2") // returns 3
 ```
+
+### Step 7: Handle Negative Numbers
+
+Handle negative numbers. The `add` method should throw an exception if negative numbers are passed, listing all the negative numbers in the error message.
+
+```js
+calculator.add("1,-2,3,-4") // throws error: "Negative numbers not allowed: -2,-4"
