@@ -54,3 +54,10 @@ Handle two numbers separated by a comma. When the input contains two numbers, th
 ```js
 calculator.add("1,2") // returns 3
 ```
+### Step 4: Handle Multiple Numbers
+
+Handle any number of numbers separated by commas. The `add` method should return the sum of all numbers.
+
+```js
+calculator.add("1,2,3,4") // returns 10
+```
