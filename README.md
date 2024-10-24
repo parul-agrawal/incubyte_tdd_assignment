@@ -46,3 +46,11 @@ calculator.add("") // returns 0
 ```js
 calculator.add("1") // returns 1
 ```
+
+### Step 3: Handle Two Numbers
+
+Handle two numbers separated by a comma. When the input contains two numbers, the `add` method should return their sum.
+
+```js
+calculator.add("1,2") // returns 3
+```
