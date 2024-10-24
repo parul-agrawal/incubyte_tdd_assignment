@@ -26,4 +26,9 @@ describe('String Calculator', () => {
     expect(calculator.add('1\n2,3')).toBe(6);
   });
   
+  it('should support custom different delimiters', () => {
+    const calculator = new Calculator();
+    expect(calculator.add('//;\n1;2')).toBe(3);
+  });
+  
 });

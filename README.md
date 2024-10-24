@@ -68,3 +68,10 @@ Allow new lines (`\n`) as delimiters in addition to commas. The `add` method sho
 ```js
 calculator.add("1\n2,3") // returns 6
 ```
+### Step 6: Support Custom Delimiters
+
+Should support custom delimiters. If the input starts with `//[delimiter]\n`, the specified delimiter should be used to separate numbers.
+
+```js
+calculator.add("//;\n1;2") // returns 3
+```
